@@ -1,0 +1,60 @@
+.Links {
+  background-color: #806bff;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 257px;
+    height: 103px;
+    margin: 15px 30px 15px 60px;
+  }
+  a {
+    text-decoration: none;
+    color: lemonchiffon;
+    border: 1px solid lemonchiffon;
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    &:hover {
+      background-color: cornflowerblue;
+    }
+  }
+}
+
+.Search {
+  height: 135px;
+  background: #e6e6e6;
+  border-radius: 20px;
+  margin: 50px;
+  align-items: center;
+  input {
+    width: 1000px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 30px;
+    border: none;
+  }
+  button {
+    height: 50px;
+    width: 170px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: darkgray;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  img {
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+  }
+}

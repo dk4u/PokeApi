@@ -1,0 +1,24 @@
+.LinkAbout {
+  background-color: #806bff;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 257px;
+    height: 103px;
+    margin: 15px 30px 15px 60px;
+  }
+  a {
+    text-decoration: none;
+    color: lemonchiffon;
+    border: 1px solid lemonchiffon;
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    &:hover {
+      background-color: cornflowerblue;
+    }
+  }
+}

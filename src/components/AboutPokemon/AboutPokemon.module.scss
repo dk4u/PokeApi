@@ -1,0 +1,43 @@
+.AboutPokemon {
+  font-weight: bold;
+  margin: 30px;
+  width: auto;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #89d0e6;
+  h3 {
+    margin: 0;
+  }
+  .TableOne {
+    width: 145px;
+  }
+  .TableOne,
+  td {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin-right: 20px;
+  }
+  th {
+    width: 324px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    margin-bottom: 30px;
+  }
+  .TableTwo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    td {
+      padding: 3px;
+    }
+  }
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 60px 25px 10px 10px;
+}

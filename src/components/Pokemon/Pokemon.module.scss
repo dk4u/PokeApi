@@ -1,0 +1,33 @@
+div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Poke {
+  width: 397px;
+  height: 365px;
+  background: #ffffff;
+  border: 1px solid #a5a5a5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 30px 30px 0;
+  .Image {
+    width: 215px;
+    height: 215px;
+  }
+  p {
+    width: 195px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    padding: 0 107px 0 95px;
+    margin: 0;
+  }
+}
